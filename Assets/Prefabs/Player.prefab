@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7045821204762322691}
   - component: {fileID: 7045821204762322700}
-  - component: {fileID: 8780262191916721684}
+  - component: {fileID: -4039023662142526485}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -46,9 +46,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   character: {fileID: 0}
   cursor: {fileID: 0}
-  cursorPrefab: {fileID: 866596754145008844, guid: c31e2af410000004aa6b95d8fbe8b177, type: 3}
+  cursorPrefab: {fileID: 6104135454726097046, guid: c31e2af410000004aa6b95d8fbe8b177, type: 3}
   characterPrefab: {fileID: 0}
---- !u!114 &8780262191916721684
+  direction: 0
+--- !u!114 &-4039023662142526485
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -73,8 +74,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_ActionEvents: []
-  m_NeverAutoSwitchControlSchemes: 0
+  m_NeverAutoSwitchControlSchemes: 1
   m_DefaultControlScheme: 
-  m_DefaultActionMap: Menu
+  m_DefaultActionMap: 8c95cca4-9e21-4f48-9a84-33784fd3b244
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
